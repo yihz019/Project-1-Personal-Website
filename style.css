@@ -213,14 +213,16 @@ p {
 /* ============================================================== */
 
 #interests {
-    margin-top: 90px;
+    margin-top: 40px;
+    height: 10px;
     background: hsl(209, 29%, 90%);
-    /* padding: 50px; */
+    height: 800px;
+    width: auto;
 }
 
 #interests img {
-    margin-top: 110px;
-    margin-left: 190px;
+    margin-top: 180px;
+    margin-left: 160px;
     width: 400px;
     right: 0;
     align-items: left;
@@ -230,48 +232,45 @@ p {
 .interest-container {
     /* position: relative; */
     display: flex;
-    flex-direction: column; /* align elements vertically in cols */
+    /* flex-direction: row;  */
+    /* align elements vertically in cols */
     align-items: center;
     background: hsl(209, 29%, 90%);
-    height: 90px; /* Adjust as needed */
-}
-
-.interest-container img {
-    margin-top: 110px;
-    margin-left: 190px;
-    display: flex;
-    flex-direction: column; /* align elements vertically in cols */
-    align-items: left;
-
-    background: hsl(209, 29%, 90%);
-    height: 90px; /* Adjust as needed */
+    height: 1000px; /* Adjust as needed */
 }
 
 .interest-box {
     position: absolute;
     display: inline-block;
     margin: 50px;
-    padding: 10px 20px;
-    border: 2px dotted black;
+    /* padding: 10px 20px; */
     background: transparent;
     font-size: 30px;  
     border-radius: 3px;
+    top: 100%;
+    left: 40%;
 }
 
-.interest-box:nth-child(1) {
-    top: 850px;
-    left: 770px;
+.text {
+    position: absolute;
+    margin: 50px;
+    background: transparent;
+    font-size: 29px;  
+    
+    border-radius: 3px;
 }
 
-.interest-box:nth-child(2) {
-    top: 1000px;
-    left: 740px;
+.text:nth-child(1) {
+    top: 115%;
+    left: 48%;
+    right: 10%;
 }
 
-.interest-box:nth-child(3) {
-    top: 1150px;
-    left: 710px;
-} 
+.text:nth-child(2) {
+    top: 175%;
+    left: 48%;
+    right: 10%;
+}
 
 /* ============================================================== */
 
