@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yi Zhuang">
+    <meta name="description" content="Short Profile">
+    <title>Personal Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Inria Serif' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css2?family=Gwendolyn' rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"> &nbspYi</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html">Experience</a></li>
+        </ul>
+    </nav>
+
+    <section id = "about">
+        <h1 class = "home">Hey, I'm Yi</h1>
+        <p>Computer Science student aspiring Software Engineer</p>
+        <p>seeking to work with infrastructure platforms and backend tools.</p>
+        <p class = "quote"><em>Let's work behind the scenes! </em> &nbsp 😊</p>  <!-- <em>  italics/emphasis -->    
+        <p class = "loc" >📍 Berkeley, CA USA</p>
+        <p class = "loc">🟢 Available for new projects</p>
+        <div class="info">
+            <a href="https://www.linkedin.com/in/yihengzhuang/">
+                <img src="../linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://github.com/yihz019">
+                <img src="../git.jpg" alt="github">
+            </a>
+        </div>
+    </section>
+
+    <section id="interests">    
+        <img src="../quote.png" alt="Sunset with quote">
+        <div class="interest-container"> 
+            <div class="interest-box">Adventurer</div>
+            <div class="interest-box">Quotes Collector</div>
+            <div class="interest-box">Badminton Amateur</div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2> Skills</h2>
+        <div class="skills-container">
+            <img src="../skills/c++.png" alt="C/C++"> 
+            <img src="../skills/java.png" alt="Java"> 
+            <img src="../skills/python.webp" alt="Python">
+            <img src="../skills/go.webp" alt="Go">        
+            <img src="../skills/asm.png" alt="Assembly">
+            <img src="../skills/sql.png" alt="SQL">
+            <img src="../skills/regex.png" alt="RegEx">
+        </div>
+        <div class="skills-container">
+            <img src="../skills/git.png" alt="Git/GitHub">
+            <img src="../skills/linux.webp" alt="Linux">
+            <img src="../skills/p4v.png" alt="p4v">
+            <img src="../skills/mongodb.png" alt="MongoDB">
+            <img src="../skills/figma.png" alt="Figma">
+            <img src="../skills/latex.png" alt="LaTeX">
+            <img src="../skills/sfml.png" alt="SFML">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Let's Connect</h2>
+        <div class="contact-info">
+            <div class="email">
+                <img src="../email.png" alt="email">
+                <a href="mailto:yhz02@berkeley.edu">yhz02@berkeley.edu</a>
+            </div>
+            <div class="phone">
+                <img src="../phone.png" alt="phone">
+                <a href="tel:+16267254463">(626) 725 4463</a>
+            </div>
+        </div>
+    </section>
+
+    <form action="/submit_form" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="made">
+        <p> Made by:</p>
+        <p>Yi Heng Zhuang Zhuo</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>    
+</html>
+
